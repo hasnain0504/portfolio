@@ -9,11 +9,13 @@ const projectsData = [
     medium: 'https://medium.com/@hasnain.somani2', // optional
   },
   {
-    title: 'Multiclass Object Detection & Few-Shot Learning',
+    title: 'Multiclass Image Classification & Few-Shot Learning on Tiny ImageNet',
     description:
-      'Trained and evaluated multi-class image models using ResNet-50, MobileNet, and EfficientNet on Tiny ImageNet. Integrated Model-Agnostic Meta-Learning (MAML) for few-shot classification, improving accuracy by 15% over fine-tuned baselines, with reproducible training and evaluation pipelines.',
+      'Trained multiclass image classification models using ResNet-50, MobileNet, and EfficientNet on Tiny ImageNet. Integrated few-shot learning via Model-Agnostic Meta-Learning (MAML), achieving ~15% accuracy gains over fine-tuned baselines under limited data settings, with reproducible training and evaluation pipelines.',
     imgSrc: '/static/images/object-detection.png',
     href: 'https://github.com/hasnain0504',
+    github: 'https://github.com/hasnain0504', // optional
+    medium: 'https://medium.com/@hasnain.somani2', // optional
   },
   {
     title: 'Automated Gas Meter Reading',
