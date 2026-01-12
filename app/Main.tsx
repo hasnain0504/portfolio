@@ -8,12 +8,8 @@ export default function Home() {
       </h1>
 
       <p className="mt-6 max-w-2xl text-lg text-gray-600 dark:text-gray-400">
-        Machine Learning–focused Master’s student in Data Science with hands-on
-        experience in deep learning, computer vision, and generative AI.
-      </p>
-
-      <p className="mt-2 max-w-2xl text-lg text-gray-600 dark:text-gray-400">
-        Focused on building practical ML systems and applied research.
+        Master’s student in Data Science with hands-on experience across data analysis, machine learning, computer vision, and generative AI.
+Experienced in building reproducible, end-to-end data and ML pipelines—from exploratory analysis and statistical modeling to training and fine-tuning deep learning systems using Python, PyTorch, and TensorFlow—delivering measurable, real-world impact.
       </p>
 
       <div className="mt-8 flex gap-4">
