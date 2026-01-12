@@ -1,10 +1,12 @@
 const projectsData = [
   {
-    title: 'Custom Jewelry Image Generator',
+    title: 'Controlled Jewelry Image Synthesis using Diffusion Models',
     description:
-      'Designed and fine-tuned a deep generative model using Stable Diffusion and LoRA for controlled jewelry image synthesis. Built the full training and inference pipeline in PyTorch, implemented structured prompt construction, and evaluated prompt–image alignment using CLIP-based similarity metrics.',
+      'Domain-adapted text-to-image generation system for fine jewelry, built by fine-tuning Stable Diffusion v1.5 using LoRA. Achieved near state-of-the-art CLIP alignment with a curated dataset of ~300 images, enabling strong prompt-level control over gemstone, metal, and design attributes.',
     imgSrc: '/static/images/jewelry-generator.png',
-    href: 'https://github.com/hasnain0504',
+    href: '/projects/jewelry-generator', // internal project page
+    github: 'https://github.com/hasnain0504', // optional
+    medium: 'https://medium.com/@hasnain.somani2', // optional
   },
   {
     title: 'Multiclass Object Detection & Few-Shot Learning',
