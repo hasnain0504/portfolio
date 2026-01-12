@@ -13,7 +13,7 @@ const projectsData = [
     description:
       'Trained multiclass image classification models using ResNet-50, MobileNet, and EfficientNet on Tiny ImageNet. Integrated few-shot learning via Model-Agnostic Meta-Learning (MAML), achieving ~15% accuracy gains over fine-tuned baselines under limited data settings, with reproducible training and evaluation pipelines.',
     imgSrc: '/static/images/object-detection.png',
-    href: 'https://github.com/hasnain0504',
+    href: '/projects/multiclass-object-detection',
     github: 'https://github.com/hasnain0504', // optional
     medium: 'https://medium.com/@hasnain.somani2', // optional
   },
