@@ -18,14 +18,11 @@ const projectsData = [
     medium: 'https://medium.com/@hasnain.somani2', // optional
   },
   {
-    {
   title: 'Automated Gas Meter Reading',
   description:
     'Developed a production-oriented computer vision system for automated gas meter reading for Sui Southern Gas Company (SSGC), achieving 94% accuracy using morphological image processing, transfer learning (ResNet50, EfficientNet, LeNet), and ensemble bagging. The project received the Merit Award and People’s Choice Award at APICTA 2023 (Hong Kong).',
   imgSrc: '/static/images/gas-meter.png',
   href: '/projects/gas-meter-reading',
-}
-
   },
 ]
 
