@@ -38,7 +38,7 @@ export default function GasMeterReadingPage() {
 
         <p className="text-gray-600 dark:text-gray-400 font-semibold">
           Note: As this project was delivered under an industry engagement with SSGC, the
-          detailed codebase and internal data cannot be publicly shared here.
+          detailed codebase and internal data cannot be publicly shared.
         </p>
       </section>
 
@@ -89,28 +89,7 @@ export default function GasMeterReadingPage() {
         </p>
       </section>
 
-      {/* Resources */}
-      <section className="mt-10 space-y-3">
-        <h2 className="text-2xl font-semibold text-gray-900 dark:text-gray-100">
-          Resources
-        </h2>
-
-        <div className="flex flex-wrap gap-4">
-          <Link
-            href="https://github.com/hasnain0504"
-            className="inline-flex items-center rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-white hover:bg-gray-700 dark:bg-gray-100 dark:text-gray-900 dark:hover:bg-gray-300"
-          >
-            GitHub Profile
-          </Link>
-
-          <Link
-            href="https://medium.com/@hasnain.somani2/..."
-            className="inline-flex items-center rounded-md border border-gray-300 px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 dark:border-gray-700 dark:text-gray-100 dark:hover:bg-gray-800"
-          >
-            Technical Write-up
-          </Link>
-        </div>
-      </section>
+      
     </div>
   )
 }
