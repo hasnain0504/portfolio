@@ -29,8 +29,8 @@ export default function JewelryGeneratorPage() {
         </p>
 
         <p className="text-gray-700 dark:text-gray-300">
-          The full pipeline—from data curation and prompt engineering to training, inference, and
-          evaluation—was implemented in PyTorch. I benchmarked multiple diffusion schedulers
+          The full pipeline: from data curation and prompt engineering to training, inference, and
+          evaluation was implemented in PyTorch. I benchmarked multiple diffusion schedulers
           (DDIM, Euler A, DPM++ 2M) and hyperparameter configurations to identify an optimal setup
           for both visual fidelity and prompt controllability.
         </p>
@@ -71,7 +71,7 @@ export default function JewelryGeneratorPage() {
 
         <p className="text-gray-700 dark:text-gray-300">
           Improvements were most notable in gemstone faceting, prong placement, halo symmetry,
-          and band geometry—attributes that are critical for real-world jewelry design but often
+          and band geometry: attributes that are critical for real-world jewelry design but often
           poorly captured by generic text-to-image models.
         </p>
       </section>
