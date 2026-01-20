@@ -25,8 +25,8 @@ export default function MulticlassObjectDetectionPage() {
         <p className="text-gray-600 dark:text-gray-400">
           This project investigates multiclass image classification under both
           standard and low-data settings using the Tiny ImageNet dataset. I trained
-          and evaluated multiple convolutional architectures—including ResNet-50,
-          MobileNet, and EfficientNet—using transfer learning and systematic
+          and evaluated multiple convolutional architectures including ResNet-50,
+          MobileNet, and EfficientNet using transfer learning and systematic
           fine-tuning strategies to analyze performance trade-offs across data regimes.
         </p>
 
@@ -51,7 +51,7 @@ export default function MulticlassObjectDetectionPage() {
           </li>
           <li>
             Implemented frozen, partially fine-tuned, and fully fine-tuned
-            backbones to study model capacity versus generalization trade-offs.
+            weights to study model capacity versus generalization trade-offs.
           </li>
           <li>
             Integrated Model-Agnostic Meta-Learning (MAML) for few-shot
@@ -59,7 +59,7 @@ export default function MulticlassObjectDetectionPage() {
           </li>
           <li>
             Conducted extensive hyperparameter experimentation across learning
-            rates, optimizers, dropout configurations, and dense layer designs.
+            rates, optimizers, dropout configurations, and dense layers.
           </li>
           <li>
             Built reproducible and modular training and evaluation pipelines with
