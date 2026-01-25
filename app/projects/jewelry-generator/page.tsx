@@ -88,17 +88,8 @@ export default function JewelryGeneratorPage() {
     <div>
       <h3 className="text-lg font-semibold">UI Screenshot</h3>
       <img
-        src="/images/jewelry/ui.png"
+        src="/images/ui.png"
         alt="Jewelry Generator UI Screenshot"
-        className="mt-3 w-full rounded-xl border border-gray-200 dark:border-gray-700"
-      />
-    </div>
-
-    <div>
-      <h3 className="text-lg font-semibold">Generation Gallery</h3>
-      <img
-        src="/images/jewelry/gallery.png"
-        alt="Generated jewelry gallery"
         className="mt-3 w-full rounded-xl border border-gray-200 dark:border-gray-700"
       />
     </div>
@@ -106,7 +97,7 @@ export default function JewelryGeneratorPage() {
     <div>
       <h3 className="text-lg font-semibold">Base vs LoRA Comparison</h3>
       <img
-        src="/images/jewelry/base_vs_lora.png"
+        src="/images/base_vs_lora.png"
         alt="Base model vs LoRA comparison"
         className="mt-3 w-full rounded-xl border border-gray-200 dark:border-gray-700"
       />
