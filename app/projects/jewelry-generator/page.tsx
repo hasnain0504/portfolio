@@ -76,6 +76,45 @@ export default function JewelryGeneratorPage() {
         </p>
       </section>
 
+      {/* Demo & Visual Results */}
+<section className="mt-10 space-y-6">
+  <h2 className="text-2xl font-semibold">Demo & Visual Results</h2>
+
+  <p className="text-gray-700 dark:text-gray-300">
+    Below are screenshots from the deployed interface and qualitative comparisons between the base model and the LoRA-fine-tuned model.
+  </p>
+
+  <div className="space-y-8">
+    <div>
+      <h3 className="text-lg font-semibold">UI Screenshot</h3>
+      <img
+        src="/images/jewelry/ui.png"
+        alt="Jewelry Generator UI Screenshot"
+        className="mt-3 w-full rounded-xl border border-gray-200 dark:border-gray-700"
+      />
+    </div>
+
+    <div>
+      <h3 className="text-lg font-semibold">Generation Gallery</h3>
+      <img
+        src="/images/jewelry/gallery.png"
+        alt="Generated jewelry gallery"
+        className="mt-3 w-full rounded-xl border border-gray-200 dark:border-gray-700"
+      />
+    </div>
+
+    <div>
+      <h3 className="text-lg font-semibold">Base vs LoRA Comparison</h3>
+      <img
+        src="/images/jewelry/base_vs_lora.png"
+        alt="Base model vs LoRA comparison"
+        className="mt-3 w-full rounded-xl border border-gray-200 dark:border-gray-700"
+      />
+    </div>
+  </div>
+</section>
+
+
       {/* Tools */}
       <section className="mt-10 space-y-4">
         <h2 className="text-2xl font-semibold">Tools & Technologies</h2>
@@ -87,21 +126,35 @@ export default function JewelryGeneratorPage() {
       </section>
 
       {/* Links */}
-      <section className="mt-10 flex gap-4">
-        <Link
-          href="https://github.com/hasnain0504"
-          className="rounded-md bg-gray-900 px-5 py-2 text-sm font-medium text-white hover:bg-gray-700 dark:bg-gray-100 dark:text-gray-900"
-        >
-          GitHub
-        </Link>
+<section className="mt-10 flex flex-wrap gap-4">
+  <Link
+    href="https://github.com/hasnain0504/Jewelry-Image-Generator"
+    className="rounded-md bg-gray-900 px-5 py-2 text-sm font-medium text-white hover:bg-gray-700 dark:bg-gray-100 dark:text-gray-900"
+  >
+    GitHub
+  </Link>
 
-        <Link
-          href="https://medium.com/@hasnain.somani2"
-          className="rounded-md border border-gray-300 px-5 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100 dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-800"
-        >
-          Technical Write-up
-        </Link>
-      </section>
+  <Link
+    href="https://huggingface.co/spaces/hsomani/jewelry-design-generator"
+    className="rounded-md border border-gray-300 px-5 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100 dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-800"
+  >
+    Live Demo (HuggingFace)
+  </Link>
+
+  <Link
+    href="https://drive.google.com/file/d/1UkygDdS8IcLPU9h4jKopXGsbF-oelmXd/view"
+    className="rounded-md border border-gray-300 px-5 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100 dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-800"
+  >
+    Demo Video (GPU)
+  </Link>
+
+  <Link
+    href="https://medium.com/@hasnain.somani2"
+    className="rounded-md border border-gray-300 px-5 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100 dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-800"
+  >
+    Medium Article (Technical)
+  </Link>
+</section>
     </div>
   )
 }
