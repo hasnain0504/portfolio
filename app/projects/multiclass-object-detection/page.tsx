@@ -103,7 +103,7 @@ export default function MulticlassObjectDetectionPage() {
               Training vs Validation Accuracy (ResNet-50, Adam)
             </h3>
             <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">
-              Accuracy increases steadily across epochs, while the validation curve stabilizes slightly lower — indicating strong learning with manageable generalization gap.
+              Accuracy increases steadily across epochs, while the validation curve stabilizes slightly lower :indicating strong learning with manageable generalization gap.
             </p>
 
             <div className="mt-3 overflow-hidden rounded-xl border border-gray-200 bg-white dark:border-gray-700 dark:bg-gray-900">
@@ -121,7 +121,7 @@ export default function MulticlassObjectDetectionPage() {
               Training vs Validation Loss (ResNet-50)
             </h3>
             <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">
-              Training loss decreases consistently, while validation loss plateaus later — highlighting the onset of overfitting and the importance of early stopping / LR scheduling.
+              Training loss decreases consistently, while validation loss plateaus later :highlighting the onset of overfitting and the importance of early stopping / LR scheduling.
             </p>
 
             <div className="mt-3 overflow-hidden rounded-xl border border-gray-200 bg-white dark:border-gray-700 dark:bg-gray-900">
