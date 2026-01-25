@@ -108,7 +108,7 @@ export default function MulticlassObjectDetectionPage() {
 
             <div className="mt-3 overflow-hidden rounded-xl border border-gray-200 bg-white dark:border-gray-700 dark:bg-gray-900">
               <img
-                src=/static/images/train_val_accuracy_resnet50.png"
+                src="/static/images/train_val_accuracy_resnet50.png"
                 alt="Training vs validation accuracy curve for ResNet-50 (Adam)"
                 className="w-full"
               />
@@ -126,7 +126,7 @@ export default function MulticlassObjectDetectionPage() {
 
             <div className="mt-3 overflow-hidden rounded-xl border border-gray-200 bg-white dark:border-gray-700 dark:bg-gray-900">
               <img
-                src=/static/images/train_val_loss_resnet50.png"
+                src="/static/images/train_val_loss_resnet50.png"
                 alt="Training vs validation loss curve for ResNet-50"
                 className="w-full"
               />
@@ -144,7 +144,7 @@ export default function MulticlassObjectDetectionPage() {
 
             <div className="mt-3 overflow-hidden rounded-xl border border-gray-200 bg-white dark:border-gray-700 dark:bg-gray-900">
               <img
-                src=/static/images/model_accuracy_comparison.png"
+                src="/static/images/model_accuracy_comparison.png"
                 alt="Model accuracy comparison bar plot across architectures"
                 className="w-full"
               />
@@ -162,7 +162,7 @@ export default function MulticlassObjectDetectionPage() {
 
             <div className="mt-3 overflow-hidden rounded-xl border border-gray-200 bg-white dark:border-gray-700 dark:bg-gray-900">
               <img
-                src=/static/images/fewshot_protonet_vs_maml.png"
+                src="/static/images/fewshot_protonet_vs_maml.png"
                 alt="Few-shot accuracy comparison between ProtoNet and MAML"
                 className="w-full"
               />
@@ -180,7 +180,7 @@ export default function MulticlassObjectDetectionPage() {
 
             <div className="mt-3 overflow-hidden rounded-xl border border-gray-200 bg-white dark:border-gray-700 dark:bg-gray-900">
               <img
-                src=/static/images/maml_meta_accuracy.png"
+                src="/static/images/maml_meta_accuracy.png"
                 alt="MAML meta accuracy progression across iterations"
                 className="w-full"
               />
@@ -198,7 +198,7 @@ export default function MulticlassObjectDetectionPage() {
 
             <div className="mt-3 overflow-hidden rounded-xl border border-gray-200 bg-white dark:border-gray-700 dark:bg-gray-900">
               <img
-                src=/static/images/tsne_embeddings.png"
+                src="/static/images/tsne_embeddings.png"
                 alt="t-SNE visualization of query embeddings"
                 className="w-full"
               />
