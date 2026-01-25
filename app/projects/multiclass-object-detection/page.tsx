@@ -175,7 +175,7 @@ export default function MulticlassObjectDetectionPage() {
               MAML Meta Accuracy Progression
             </h3>
             <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">
-              Meta accuracy over training iterations shows stable upward learning dynamics with high-performing peaks — indicating effective meta-optimization.
+              Meta accuracy over training iterations shows stable upward learning dynamics with high-performing peaks: indicating effective meta-optimization.
             </p>
 
             <div className="mt-3 overflow-hidden rounded-xl border border-gray-200 bg-white dark:border-gray-700 dark:bg-gray-900">
@@ -193,7 +193,7 @@ export default function MulticlassObjectDetectionPage() {
               t-SNE Visualization of Query Embeddings
             </h3>
             <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">
-              High-dimensional embeddings projected into 2D show clustering structure across many classes — suggesting meaningful feature separation learned by the network.
+              High-dimensional embeddings projected into 2D show clustering structure across many classes: suggesting meaningful feature separation learned by the network.
             </p>
 
             <div className="mt-3 overflow-hidden rounded-xl border border-gray-200 bg-white dark:border-gray-700 dark:bg-gray-900">
