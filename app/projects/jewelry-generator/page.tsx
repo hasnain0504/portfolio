@@ -81,63 +81,77 @@ export default function JewelryGeneratorPage() {
         <h2 className="text-2xl font-semibold">Demo & Visual Results</h2>
 
         <p className="text-gray-700 dark:text-gray-300">
-  This section highlights qualitative examples (UI + generation comparisons) along with quantitative results from CLIP-based evaluation and training stability analysis.
-</p>
+          This section highlights qualitative examples (UI + generation comparisons) along with
+          quantitative results from CLIP-based evaluation and training stability analysis.
+        </p>
 
+        <div className="space-y-10">
+          {/* UI Screenshot */}
+          <div>
+            <h3 className="text-lg font-semibold">UI Screenshot</h3>
+            <div className="mt-3 flex justify-center">
+              <img
+                src="/static/images/ui.png"
+                alt="Jewelry Generator UI Screenshot"
+                className="w-full max-w-2xl rounded-xl border border-gray-200 dark:border-gray-700"
+              />
+            </div>
+          </div>
 
-        <div className="mt-3 flex justify-center">
-  <img
-    src="/static/images/ui.png"
-    alt="Jewelry Generator UI Screenshot"
-    className="w-full max-w-2xl rounded-xl border border-gray-200 dark:border-gray-700"
-  />
-</div>
-
-          <div className="mt-3 flex justify-center">
-  <img
-    src="/static/images/base_vs_lora.png"
-    alt="Base model vs LoRA comparison"
-    className="w-full max-w-2xl rounded-xl border border-gray-200 dark:border-gray-700"
-  />
-</div>
-
+          {/* Base vs LoRA */}
+          <div>
+            <h3 className="text-lg font-semibold">Base vs LoRA Comparison</h3>
+            <div className="mt-3 flex justify-center">
+              <img
+                src="/static/images/base_vs_lora.png"
+                alt="Base model vs LoRA comparison"
+                className="w-full max-w-2xl rounded-xl border border-gray-200 dark:border-gray-700"
+              />
+            </div>
+          </div>
 
           {/* Quantitative Visuals */}
-<div>
-  <h3 className="text-lg font-semibold">LoRA Variant Comparison (CLIP Score)</h3>
-  <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">
-    Mean CLIP text–image similarity across two LoRA fine-tuning runs under the same evaluation prompt set.
-  </p>
-  <img
-    src="/static/images/lora_comparison.png"
-    alt="Bar chart showing mean CLIP score comparison between LoRA variants"
-    className="mt-3 w-full rounded-xl border border-gray-200 dark:border-gray-700"
-  />
-</div>
+          <div>
+            <h3 className="text-lg font-semibold">LoRA Variant Comparison (CLIP Score)</h3>
+            <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">
+              Mean CLIP text–image similarity across two LoRA fine-tuning runs under the same
+              evaluation prompt set.
+            </p>
+            <img
+              src="/static/images/lora_comparison.png"
+              alt="Bar chart showing mean CLIP score comparison between LoRA variants"
+              className="mt-3 w-full rounded-xl border border-gray-200 dark:border-gray-700"
+            />
+          </div>
 
-<div>
-  <h3 className="text-lg font-semibold">Model Comparision (CLIP Score)</h3>
-  <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">
-    Comparison of mean CLIP similarity across multiple diffusion checkpoints and custom LoRA variants.
-  </p>
-  <img
-    src="/static/images/model_comparison.png"
-    alt="Horizontal bar chart comparing mean CLIP scores across models"
-    className="mt-3 w-full rounded-xl border border-gray-200 dark:border-gray-700"
-  />
-</div>
+          <div>
+            <h3 className="text-lg font-semibold">Model Comparison (CLIP Score)</h3>
+            <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">
+              Comparison of mean CLIP similarity across multiple diffusion checkpoints and custom
+              LoRA variants.
+            </p>
+            <img
+              src="/static/images/model_comparison.png"
+              alt="Horizontal bar chart comparing mean CLIP scores across models"
+              className="mt-3 w-full rounded-xl border border-gray-200 dark:border-gray-700"
+            />
+          </div>
 
-<div>
-  <h3 className="text-lg font-semibold">Training Stability (Loss Curve)</h3>
-  <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">
-    Training loss vs step comparison highlighting stability differences across training durations.
-  </p>
-  <img
-    src="/static/images/training_loss.png"
-    alt="Line plot showing LoRA training loss curve across training steps"
-    className="mt-3 w-full rounded-xl border border-gray-200 dark:border-gray-700"
-  />
-</div>
+          <div>
+            <h3 className="text-lg font-semibold">Training Stability (Loss Curve)</h3>
+            <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">
+              Training loss vs step comparison highlighting stability differences across training
+              durations.
+            </p>
+            <img
+              src="/static/images/training_loss.png"
+              alt="Line plot showing LoRA training loss curve across training steps"
+              className="mt-3 w-full rounded-xl border border-gray-200 dark:border-gray-700"
+            />
+          </div>
+        </div>
+      </section>
+
 
           
         </div>
