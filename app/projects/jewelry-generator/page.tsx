@@ -152,11 +152,6 @@ export default function JewelryGeneratorPage() {
         </div>
       </section>
 
-
-          
-        </div>
-      </section>
-
       {/* Tools */}
       <section className="mt-10 space-y-4">
         <h2 className="text-2xl font-semibold">Tools & Technologies</h2>
